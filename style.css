@@ -1,0 +1,205 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+ font-family: 'Poppins', sans-serif;  
+ margin: 0;
+ padding: 0;
+ scroll-behavior: smooth;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+.tribute a {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+nav a {
+    font-size: 1.3vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;   
+}
+
+.top-section, .mid-section, .bottom-section {
+    height: 50vw;
+}
+
+.bottom-section {
+    padding-top: 2vw;
+}
+
+.hero-img {
+    width: 110vw;
+}
+
+#image {
+    width: 100%;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#title {
+    margin-right: 3vw;
+}
+
+#title h1 {
+    font-size: 3vw;
+}
+
+#title p {
+    font-size: 1.4vw;
+}
+
+.bio {
+    margin-right: 3vw;
+}
+
+.bio h1 {
+    font-size: 2.5vw;
+}
+
+.bio p {
+    font-size: 1.1vw;
+}
+
+
+#img-div {
+    width: 150vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    max-width: 800px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#img-caption {
+    font-size: 0.8vw;
+    font-weight: 500;
+    margin-top: 0.5vw;
+}
+
+#tribute-info h1 {
+    font-size: 2.5vw;
+}
+
+#tribute-info h3 {
+    font-weight: 500;
+    font-size:  1.1vw;
+}
+
+#tribute-info {
+    box-sizing: border-box;
+    padding-right: 3vw;
+}
+
+.contribution-img {
+    width: 82vw;
+}
+
+.contributions {
+}
+
+
+.contribution-img img {
+    width: 100%;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+footer h1 {
+    font-size: 2.5vw;
+}
+
+footer a {
+    font-size: 1.1vw;
+}
+
+footer ul {
+    margin: 0;
+    height: fit-content;
+}
+
+@media (max-width: 720px) {
+section, nav, footer {
+    width: 90%;
+}
+
+
+.tribute a {
+    font-size: 3.2vw;
+}
+nav a {
+    font-size: 2.2vw;
+}
+
+#title h1 {
+    font-size: 4vw;
+}
+
+#title p {
+    font-size: 1.8vw;
+}
+
+.bio h1, footer h1, #tribute-info h1 {
+    font-size: 3.5vw;
+}
+
+.bio p, footer a, #tribute-info h3 {
+    font-size: 1.6vw;
+}
+
+#image,  .contribution-img img{
+    width: 110%;
+}
+
+footer {
+    margin: 4vw auto;
+}
+}
